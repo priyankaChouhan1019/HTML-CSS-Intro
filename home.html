@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo-Flexbox 3</title>
+    <style>
+        body{ padding: 2em;}
+
+        .headerContainer {
+            display: flex;
+            flex-flow: column wrap;
+            background: tomato;
+            align-content: center;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        .footerContainer {
+            display: flex;
+            flex-flow: column wrap;
+            background:lightgreen;
+            align-content: center;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        .mainContainer {
+            display: flex;
+            flex-flow: row wrap;
+            font-weight: bold;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class=headerContainer><h1> HEADER sample flex box example</h1></header>
+    <div class=mainContainer>
+        <section class="mainContentItem"></section>
+    </div>
+    <footer class=footerContainer></footer>
+    
+</body>
+</html>
